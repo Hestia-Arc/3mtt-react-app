@@ -53,6 +53,38 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+.custom-card {
+  height: 150px;
+  width: 500px;
+  background-color: rgb(47, 48, 48);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid #213547;
+}
+img {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-left: 20px;
+  align-items: flex-start;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+}
+
+p, h2 {
+  margin: 0;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
